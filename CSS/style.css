@@ -1,0 +1,17 @@
+h1 {
+	font-size : 64px;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 100px;
+}
+
+.big-blue-text {
+	font-size: 64px;
+	color: blue;
+}
+
+#best-text{
+	color: orange;
+}

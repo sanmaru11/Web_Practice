@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  min-width: 768px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* side navbar */
+
+#side-navbar {
+  background-color: black;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+}
+
+.li a{
+  color: white;
+  list-style: none;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.li li{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+#ul{
+  margin-left: 22px;
+  padding-left: 0px;
+  float: left;
+  
+}
+
+#logo {
+  width: 136px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+p{
+  clear: left;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  font-size: 45px;
+  margin: 0px;
+}
+
+#fb{
+  width: 22px;
+  margin-right: 13px;
+}
+
+#tw {
+  width: 25px;
+}
+
+#sns {
+  margin-top: 25px;
+  width: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: left;
+}
+
+/* main */
+
+#main {
+  margin-left: 250px;
+}
+
+#main .hero-header {
+  text-align: center;
+  background-image: url("../images/hero_header.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 750px;
+  line-height: 750px;
+}
+
+#main .info {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+#main h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 38px;
+}
+
+#main a {
+  padding: 10px 40px;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}

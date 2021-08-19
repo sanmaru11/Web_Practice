@@ -1,0 +1,98 @@
+@font-face{
+  src : url("../fonts/BMJUA_ttf.ttf");
+  font-family :"JUA";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F0E8D9;
+  font-family: "JUA";
+  margin-top: 75px;
+}
+
+h1{
+  color: #58595B;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+h2{
+  color: #58595B;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  vertical-align: top
+}
+
+.menu{
+  background-color: white;
+  width: 300px;
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  margin-bottom: 50px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  float: left;
+}
+
+.text{
+  color: #58595B;
+  padding: 0px 20px 20px 20px;
+}
+
+.title{
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.exp{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.pay{
+  font-size: 16px;
+  color: #0000EE;
+  display: block;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+#bur {
+  clear: left;
+  margin-right: 30px;
+}
+
+#chic {
+  margin-right: 30px;
+}
+
+.food {
+  width: 630px;
+  margin-right: auto;
+  margin-left: auto;
+}
