@@ -43,7 +43,7 @@ body {
 
 /* hero header */
 #header{
-  background-image: url('../images/hero_header.jpg');
+  background-image: url('../images/hero_header_sp.jpg');
   background-size: cover;
   background-position: center center;
   height: 450px;
@@ -64,6 +64,7 @@ h1{
   margin-right: 10px;
   margin-left: 10px;
   float: left;
+  margin-bottom: 80px;
 }
 
 .menu img{
@@ -87,18 +88,34 @@ a{
   text-decoration: none;
 }
 
-#product{
-  float: left;
-  width: 800px;
+#products{
+  width: 735px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.first{
+#f_2{
+  clear: left;
+}
+
+#f_1{
+  clear: left;
+}
+
+
+/* footer */
+#footer {
+  clear: left;
+  margin-top: 40px;
+  width: 129px;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
-.back{
-  
+#footer img {
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 80px;
 }
-/* footer */
